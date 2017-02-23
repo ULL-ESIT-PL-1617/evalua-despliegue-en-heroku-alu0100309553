@@ -11,3 +11,5 @@ gulp.task('build', shell.task(['npm run build']));
 gulp.task('deploy', shell.task(['npm run deploy']));
 
 gulp.task('iaas', shell.task(['npm run iaas']));
+
+gulp.task('despheroku', shell.task('npm run herokudeploy'));
